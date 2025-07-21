@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import CategoryGrid from "@/components/CategoryGrid";
 import FeaturedProducts from "@/components/FeaturedProducts";
-import NewsletterSection from "@/components/NewsletterSection";
 import AboutSection from "@/components/AboutSection";
 import Footer from "@/components/Footer";
 
@@ -12,12 +11,13 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <AnnouncementBar />
       <Header />
-      <HeroSection />
-      <CategoryGrid />
-      <FeaturedProducts />
-      <AboutSection />
-      <NewsletterSection />
-      <Footer />
+      <div className="pt-16"> {/* Account for fixed header */}
+        <HeroSection />
+        <CategoryGrid />
+        <FeaturedProducts />
+        <AboutSection />
+        <Footer />
+      </div>
     </div>
   );
 };
