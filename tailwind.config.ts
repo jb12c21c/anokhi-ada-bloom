@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'heading': ['Playfair Display', 'serif'],
+				'body': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +55,13 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				brand: {
+					purple: 'hsl(var(--brand-purple))',
+					'purple-light': 'hsl(var(--brand-purple-light))',
+					'purple-dark': 'hsl(var(--brand-purple-dark))',
+					lavender: 'hsl(var(--brand-lavender))',
+					'soft-grey': 'hsl(var(--brand-soft-grey))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
