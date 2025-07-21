@@ -2,7 +2,7 @@ import { Instagram, Facebook, Twitter, Mail, Phone, MapPin } from "lucide-react"
 
 const Footer = () => {
   const quickLinks = [
-    "About Us", "Contact", "FAQs", "Size Guide", 
+    "Shop", "About Us", "Contact", "FAQs", "Size Guide", 
     "Shipping Info", "Returns", "Privacy Policy", "Terms of Service"
   ];
 
